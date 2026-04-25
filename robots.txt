@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://safallamsal.com.np/sitemap.xml
+
+# Disallow admin or private directories if any
+# User-agent: *
+# Disallow: /admin/
