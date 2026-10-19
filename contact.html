@@ -84,17 +84,17 @@
           </div>
           <div class="ci-item">
             <div class="ci-icon"><i class="fas fa-globe"></i></div>
-            <div><div class="ci-label">Website</div><a href="https://safallamsal.com.np" target="_blank" class="ci-val">safallamsal.com.np</a></div>
+            <div><div class="ci-label">Website</div><a href="https://safallamsal.com.np" target="_blank" rel="noopener noreferrer" class="ci-val">safallamsal.com.np</a></div>
           </div>
         </div>
 
         <div class="contact-socials">
           <h4>Connect on Social</h4>
           <div class="cs-links">
-            <a href="https://www.linkedin.com/in/saphallamsal/" target="_blank" class="cs-link linkedin">
+            <a href="https://www.linkedin.com/in/saphallamsal/" target="_blank" rel="noopener noreferrer" class="cs-link linkedin">
               <i class="fab fa-linkedin-in"></i><span>LinkedIn</span>
             </a>
-            <a href="https://github.com/safalamsall" target="_blank" class="cs-link github">
+            <a href="https://github.com/safalamsall" target="_blank" rel="noopener noreferrer" class="cs-link github">
               <i class="fab fa-github"></i><span>GitHub</span>
             </a>
           </div>
@@ -123,7 +123,7 @@
           -->
           <form action="https://formsubmit.co/saphallamsal9@gmail.com" method="POST" id="contact-form">
             <input type="hidden" name="_subject" value="New contact from safallamsal.com.np">
-            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_captcha" value="true">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="thankyou.html">
             <!-- Honeypot anti-spam -->
@@ -132,17 +132,17 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="fname"><i class="fas fa-user"></i> Full Name <span class="req">*</span></label>
-                <input type="text" id="fname" name="name" placeholder="Your full name" required>
+                <input type="text" id="fname" name="name" placeholder="Your full name" maxlength="100" required>
               </div>
               <div class="form-group">
                 <label for="femail"><i class="fas fa-envelope"></i> Email <span class="req">*</span></label>
-                <input type="email" id="femail" name="email" placeholder="your@email.com" required>
+                <input type="email" id="femail" name="email" placeholder="your@email.com" maxlength="254" required>
               </div>
             </div>
 
             <div class="form-group">
               <label for="fphone"><i class="fas fa-phone"></i> Phone</label>
-              <input type="tel" id="fphone" name="phone" placeholder="+977 ...">
+              <input type="tel" id="fphone" name="phone" placeholder="+977 ..." maxlength="25">
             </div>
 
             <div class="form-group">
@@ -160,7 +160,7 @@
 
             <div class="form-group">
               <label for="fmessage"><i class="fas fa-comment-alt"></i> Message <span class="req">*</span></label>
-              <textarea id="fmessage" name="message" rows="6" placeholder="Tell me about your project or inquiry..." required></textarea>
+              <textarea id="fmessage" name="message" rows="6" placeholder="Tell me about your project or inquiry..." maxlength="2000" required></textarea>
             </div>
 
             <button type="submit" class="btn-primary btn-submit">
@@ -197,8 +197,8 @@
         <a href="certifications.html">Certifications</a><a href="contact.html">Contact</a>
       </div>
       <div class="footer-socials">
-        <a href="https://www.linkedin.com/in/saphallamsal/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/safalamsall" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/saphallamsal/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/safalamsall" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
         <a href="mailto:info@safallamsal.com.np"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
